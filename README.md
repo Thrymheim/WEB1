@@ -62,4 +62,4 @@ For any questions or concerns regarding the course, please reach out to:
 
 - **Instructor:** [Maziyar kolagar]
 - **Email:** [maziyarkolagar@gmail.com]
-- **Office Hours:** [saturday, Wednesday, friday]
+- **Office Hours:** [sunday, tuesday]
