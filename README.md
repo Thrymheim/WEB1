@@ -33,13 +33,13 @@ This HTML and CSS Beginner Class is designed to introduce you to the core princi
 
 By the end of this course, you will be able to:
 
-1. Understand Python syntax and basic programming concepts.
-2. Write simple Python programs.
-3. Use control structures like loops and conditionals.
-4. Work with data types such as lists, dictionaries, sets and tuples.
-5. Implement classes and create methods to encapsulate functionality.
-6. Write functions and understand their importance.
-7. Debug and troubleshoot simple problems in your code.
+1. Understand the structure and syntax of HTML.
+2. Create well-formed HTML documents with headings, paragraphs, lists, links, images, and other elements.
+3. Apply CSS to style HTML elements, including colors, fonts, spacing, and layout.
+4. Use CSS selectors and properties to target and style specific parts of a webpage.
+5. Build responsive web pages that adapt to different screen sizes using techniques like media queries.
+6. Organize CSS with classes, IDs, and external stylesheets for maintainability.
+7. Debug and troubleshoot common issues in HTML and CSS code to improve webpage appearance and functionality.
 
 ## Required Tools
 
