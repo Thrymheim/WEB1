@@ -24,9 +24,9 @@ This HTML and CSS Beginner Class is designed to introduce you to the core princi
 
 ## Class Structure
 
-- **Duration:** [14 weeks]
-- **Format:** [Online, in-person,]
-- **Sessions:** [Once a week]
+- **Duration:** [5 weeks]
+- **Format:** [in-person]
+- **Sessions:** [Twice a week]
 - **Duration of each session:** [3 hours per session]
 
 ## Learning Objectives
@@ -45,18 +45,16 @@ By the end of this course, you will be able to:
 
 To get the most out of this class, please ensure you have the following installed on your computer:
 
-- **Python:** Download and install the latest version of Python from [python.org](https://www.python.org/downloads/).
 - **IDE/Text Editor:** You can use any text editor or Integrated Development Environment (IDE) such as:
   - [Visual Studio Code](https://code.visualstudio.com/)
-  - [PyCharm](https://www.jetbrains.com/pycharm/)
 
 ## Course Materials
 
 All course materials, including lecture slides, coding exercises, and additional resources, will be provided during the class sessions. You may also refer to the following resources for supplementary learning:
 
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
-- [Python Official Documentation](https://docs.python.org/3/)
-- [W3Schools Python Tutorial](https://www.w3schools.com/python/)
+- [W3Schools Python Tutorial](https://www.w3schools.com/html/)
+- [W3Schools Python Tutorial](https://www.w3schools.com/css/)
+
 
 ## Contact Information
 
