@@ -52,8 +52,8 @@ To get the most out of this class, please ensure you have the following installe
 
 All course materials, including lecture slides, coding exercises, and additional resources, will be provided during the class sessions. You may also refer to the following resources for supplementary learning:
 
-- [W3Schools Python Tutorial](https://www.w3schools.com/html/)
-- [W3Schools Python Tutorial](https://www.w3schools.com/css/)
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
 
 
 ## Contact Information
