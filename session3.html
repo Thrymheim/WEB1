@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- پیاده سازی یک فرم ثبت نام کامل -->
+    <form>
+        <label for="name">نام</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="family">نام خانوادگی</label>
+        <input type="text" id="family" name="family" required>
+        <br>
+        <label for="password">پسورد</label>
+        <input type="password" name="password" required>
+        <br>
+        <label for="email">ایمیل</label>
+        <input type="email" name="email" required>
+        <br>
+        <button type="submit">Done</button>
+    </form>
+
+    <form autocomplete="on">
+        <h2>User info</h2>
+        <label for="name"> Name: </label>
+        <!-- اتربیوتی است که در آن چیزی که قرار است به سمت سرور ارسال شود را میگوید name-->
+        <!-- به سرور میگوید قرارا است این یک اسم است name="name" برای مثال در اینجا -->
+        <input type="text" id="name" name="name" required>
+          
+        <!-- استفاده میکنیم radio button وقتی قرار است بین چند آپشن یکی را انتخاب کنیم از -->
+        <h2>Radio button</h2>
+        <!-- محتوای چیزی که کاربر وارد کرد را به سرور میگوید value -->  
+        <input type="radio" id="one" name="gender" value="male">
+        <label for="one">Male</label>
+        <input type="radio" id="two" name="gender" value="female">
+        <label for="two">Female</label>
+        <!-- استفاده میکنیم Checkbox وقتی قرار است بین چند آپشن چندتا را انتخاب کنیم از -->  
+        <h2>Checkbox</h2>
+        <input type="checkbox" id="checlbox1" name="skills" value="HTML">
+        <label for="checlbox1">HTML</label>
+        <input type="checkbox" id="checlbox2" name="skills" value="CSS">
+        <label for="checlbox2">CSS</label>
+        <input type="checkbox" id="checlbox3" name="skills" value="JS">
+        <label for="checlbox3">JS</label>
+        <br>
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <form>
+        <!-- میتوانیم از بین چند گزینه یکی رو انتخاب کنیم select box با استفاده از -->
+          <label for="select-box">Select one item</label>
+          <br>
+          <select name="select-box" id="select-box">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+  <!--اونی رو که ما انتخاب کنیم رونشون میدهselectedبه طور پیشفرض اولی رو نشون میده ولی با -->        
+              <option value="4" selected>Four</option>
+              <option value="5">Five</option>
+          </select>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <button type="button">Submit</button>
+      </form>
+
+    <form>
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="family">Family</label>
+            <input type="text " id="family" name="family" required>
+        </fieldset>
+        <h2>Choose</h2>
+        <input type="text" list="datalist">
+        <datalist id="datalist">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </datalist>
+    </form>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="name" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="password" required>
+            <br>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+        </fieldset>
+        <fieldset>
+            <legend>skills checkbox</legend>
+            <h2>Languages</h2>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="css" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="js" value="js">
+            <label for="js">JS</label>
+            <input type="checkbox" id="react" name="react" value="react">
+            <label for="react">React</label>
+        </fieldset>
+        <label for="data">Choose a sport</label>
+        <input type="text" id="data" list="sport">
+        <datalist id="sport">
+            <option value="soccor"> soccor </option>
+            <option value="basketball"> basketball </option>
+            <option value="tennis"> tennis </option>
+        </datalist>
+    </form> 
+    <br>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6" width="1em" height="1em">
+        <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+        <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+        <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+    </svg>
+    <br>
+    <iframe src="https://www.digikala.com/" width="500" height="500" >
+
+    </iframe>
+</body>
+</html>
