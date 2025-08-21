@@ -1,0 +1,86 @@
+/* #hover{
+    background-color: black;
+    color: rgb(255, 196, 0);
+    display: block;
+    width: 50px;
+    height: 20px;
+}
+#hover:hover{
+    background-color: rgb(81, 81, 81);
+}
+#focus:focus{
+    outline-color: yellow;
+}
+#active{
+    background-color: black;
+    color: yellow;
+}
+#active:active{
+    background-color: gray;
+} */
+/* *{
+    background-color: black;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.a{
+    background-color: red;
+    position: relative;
+    width: 50%;
+}
+.b{
+    background-color: aqua;
+    position: sticky;
+    margin-top: 30px;
+} */
+/* .c{
+    background-color: yellow;
+    position: static;
+    height: 150px;
+    width: 150px;
+    overflow: scroll;
+} */
+/* .scroll{
+    height: 2000px;
+}
+.a_child{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    bottom: 0;
+    background-color: aquamarine;
+} */
+ /* .container{
+    width: 1280px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ .flex_item{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+ }
+.a{
+    background-color: red;
+ }
+.b{
+    background-color: green;
+}
+.c{
+    background-color: blue;
+    
+ } */
+.container{
+    margin: 0 auto;
+}
+.alert{
+    display: none;
+}
+.checkbox:checked + .alert{
+    display: block;
+}
